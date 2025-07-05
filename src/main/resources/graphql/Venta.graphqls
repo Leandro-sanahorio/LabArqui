@@ -1,0 +1,15 @@
+type Venta{
+    id:ID!
+    usuario : String!
+    total : Float!
+    ventaespecial:Boolean!
+    cantidadProductosVenta:Int!
+    fechaCreacion: String!
+    producto: Producto!
+}
+
+input VentaInput{
+    cantidadProductosVenta:Int!
+    producto: Int!
+}
+
