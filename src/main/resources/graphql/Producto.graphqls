@@ -1,0 +1,17 @@
+type Producto{
+    id:ID!
+    nombre:String!
+    descripcion:String!
+    categoria:String!
+    precio:Float!
+    cantidadDisponible:Int!
+    productoVendidos:Int!
+}
+
+input ProductoInput{
+    nombre:String!
+    descripcion:String!
+    categoria:String!
+    precio:Float!
+    cantidadDisponible:Int!
+}
